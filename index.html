@@ -2,61 +2,43 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Portfolio Website</title>
-  <link rel="stylesheet" href="style.css"> </head>
+  <title>My Shop</title>
+</head>
 <body>
-  <header>
-    <h1>John Doe</h1>
-    <nav>
-      <ul>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+  <h1>Welcome to My Shop!</h1>
+  
+  <nav>
+    <ul>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#about">About Us</a></li>
+    </ul>
+  </nav>
+  
   <main>
+    <section id="products">
+      <h2>Our Products</h2>
+      <article class="product">
+        <h3>Product 1</h3>
+        <img src="product1.jpg" alt="Product 1 Image">
+        <p>A short description of Product 1.</p>
+        <p>Price: $19.99</p>
+      </article>
+      <article class="product">
+        <h3>Product 2</h3>
+        <img src="product2.jpg" alt="Product 2 Image">
+        <p>A short description of Product 2.</p>
+        <p>Price: $24.99</p>
+      </article>
+    </section>
+    
     <section id="about">
-      <h2>About Me</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod odio ac quam sollicitudin, vitae dignissim magna aliquam. Pellentesque eget lorem sem. Sed eu libero lectus.</p>
-    </section>
-    <section id="skills">
-      <h2>Skills</h2>
-      <ul class="skills-list">
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>Python</li>
-      </ul>
-    </section>
-    <section id="projects">
-      <h2>Projects</h2>
-      <article class="project">
-        <h3>Project 1</h3>
-        <p>A brief description of Project 1.</p>
-        <a href="#">Link to Project</a>
-      </article>
-      <article class="project">
-        <h3>Project 2</h3>
-        <p>A brief description of Project 2.</p>
-        <a href="#">Link to Project</a>
-      </article>
-    </section>
-    <section id="contact">
-      <h2>Contact</h2>
-      <form action="contact.php" method="post"> <label for="name">Name:</label>
-        <input type="text" id="name" name="name">
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email">
-        <label for="message">Message:</label>
-        <textarea id="message" name="message"></textarea>
-        <button type="submit">Send Message</button>
-      </form>
+      <h2>About Us</h2>
+      <p>A brief description of your shop and what you sell.</p>
     </section>
   </main>
+  
   <footer>
-    <p>&copy; 2024 John Doe</p>
+    <p>&copy; 2024 My Shop</p>
   </footer>
 </body>
 </html>
